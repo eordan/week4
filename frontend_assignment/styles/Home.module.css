@@ -1,5 +1,6 @@
 .container {
     padding: 0 2rem;
+    color: #F0FFFF;
 }
 
 .main {
@@ -13,7 +14,7 @@
 }
 
 .logs {
-    color: #A3E5BA;
+    color: #F0FFFF;
     font-weight: bold;
     margin-top: 0;
     line-height: 1.5;
@@ -24,17 +25,21 @@
 .button {
     padding: 10px 16px;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 4px;
     width: 200px;
     text-align: center;
     cursor: pointer;
+    background-color: #F0FFFF;
+    width: 300px;
 }
 
 .button:hover {
-    background-color: rgba(0, 0, 0, 0.08);
+    color: #000000;
+    background-color: #FFFAF0;
 }
 
 .button:active {
+
     position: relative;
     top: 1px;
 }
@@ -54,4 +59,38 @@
     margin: 2rem 0;
     line-height: 1.5;
     font-size: 1.5rem;
+
+}
+
+.smalltitle {
+    margin: 1rem 0;
+    line-height: 0.5;
+    font-size: 1.0rem;
+}
+
+.textarea1 {
+  color: #000000;   
+  width: 300px;
+  height: 50px;
+  font-size: 1.0rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #F0FFFF;
+  resize: none;
+}
+
+.textarea2 {
+  color: #000000;   
+  width: 300px;
+  height: 50px;
+  font-size: 1.0rem;
+  text-align: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #F0FFFF;
+  resize: none;
 }
